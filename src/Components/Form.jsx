@@ -31,7 +31,6 @@ const Form = ({ saveForm }) => {
     })
 
     function handleInputChange(event) {
-        console.log(event.target.checked)
         setFormData({ ...formData, [event.target.name]: event.target.value })
     }
 
